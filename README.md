@@ -1,44 +1,40 @@
 # Advanced Programming .NET
+## Dependency Injection (DI)
+In this lesson, you will learn:
+- What **Dependency Injection (DI)** is and why it is important for maintainable and testable code.
+- How to **manually implement a DI Container** in a console application.
+- Understanding DI lifetimes:  
+**Singleton, Transient, and Scoped**.
+- How DI helps in makes your code more flexible for future enhancements.
 
-**Welcome to Advanced Programming .NET!**  
-This repository is designed for students who have completed **OOP and DSA fundamentals** and are ready to advance their **backend development skills in .NET**.
-
-## Prerequisites
-Before getting started, you should have:
-- Solid understanding of **Object-Oriented Programming (OOP)** concepts.
-- Good knowledge of **Data Structures and Algorithms (DSA)** basics.
-- Familiarity with **C# and .NET**.
-
-## How to Use This Repository
-1. Clone the repository:
+### How to Use This Branch
+1. Clone the repository (if not already done):
 ```bash
 git clone https://github.com/samirajaj/advanced-programming-dotnet.git
 ```
-2. Explore the lesson branches by switching between them:
+2. Switch to the DI branch:
 ```bash
-git checkout <branch-name>
+git checkout dependency-injection
 ```
-Each branch contains the code for a specific lesson, allowing you to study each concept independently and incrementally.  
-____  
-
+Explore the DI implementation, run the console application, and study how the DI Container is used to inject services.
+____
 # برمجة متقدمة دوت نيت
-**مرحبًا بك في مشروع برمجة متقدمة دوت نيت!**  
-هذا الريبو مخصص للطلاب الذين أنهوا أساسيات OOP وDSA ويرغبون في تطوير مهاراتهم في بناء واجهات خلفية متقدمة باستخدام دوت نيت.
+## الحقن بالتبعية (Dependency Injection - DI)
+في هذا الدرس، ستتعلم:
+- ما هو **الحقن بالتبعية (DI)** ولماذا هو مهم لكتابة كود قابل للصيانة والاختبار.
+- كيفية **إنشاء DI Container يدويًا** في تطبيق Console.
+- فهم أنواع lifetimes في DI:  
+**Singleton, Transient, and Scoped**.
+- كيف يساعد DI في جعل الكود أكثر مرونة للتطوير والتحسين المستقبلي.
 
-## المتطلبات الأساسية
-قبل البدء، يجب أن يكون لديك:
-- فهم قوي لمفاهيم البرمجة الكائنية (OOP).
-- معرفة جيدة بأساسيات الهياكل البيانية والخوارزميات (DSA).
-- إلمام بلغة سي شارب ودوت نيت.
-
-## كيفية استخدام الريبو
-1. جلب المشروع:
+## كيفية استخدام هذا الفرع
+1. استنساخ المشروع (إذا لم يتم ذلك مسبقًا):
 ```bash
 git clone https://github.com/samirajaj/advanced-programming-dotnet.git
 ```
-2. استكشاف الدروس من خلال التنقل بين الفروع:
+2. الانتقال إلى فرع DI:
 ```bash
-git checkout <branch-name>
+git checkout dependency-injection
 ```
 
-كل فرع يحتوي على كود درس محدد، مما يسمح لك بدراسة كل مفهوم بشكل مستقل وبالتدريج.
+استكشف تنفيذ DI، شغّل تطبيق الـ Console، وادرس كيفية استخدام DI Container لحقن الخدمات.
